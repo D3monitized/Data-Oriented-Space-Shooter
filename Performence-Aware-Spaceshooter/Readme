@@ -1,0 +1,13 @@
+First off: It was a while ago I worked on this assignment which is why I can't remember much about what I did. 
+
+Why is this project more data oriented in it's programming? 
+
+
+In the game there are a couple of 10'000's asteroids which makes the edge/border of the map. 
+Rather than spawning all of these individually and then giving them their own MonoBehaviour scripts which will handle their logic,
+these asteroids are spawned and controlled by systems which is a Unity Dots class. Basically these systems somehow more optimized spawn
+in all the asteroids but then also handle all the asteroids logic in one single script which will be way more optimized than having 10'000
+MonoBehaviours each handling their own logic. 
+
+The rest of the game is handled in the exact same way which is all I can say really about it being more optimized and more data oriented
+than doing it the "regular" way. 
